@@ -1,7 +1,14 @@
 fun main() {
-println("hello world")
-    var nome: String="Adrielly"
-    var sobrenome= 1
-    val idade=27
-    println("Olá o meu nome é $nome")
+    println("Digite sua idade")
+    var age: Int = readLine()!!.toInt()
+
+    if (age >= 18) {
+        println("Legal, você é maior de idade!")
+    } else {
+        println("que pena, você é menor de idade :/ ")
+
+    }
+    println("Digite seu nome")
+    var name = readLine()
+    println("Bem vindo $name")
 }
