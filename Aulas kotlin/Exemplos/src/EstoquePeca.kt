@@ -23,7 +23,17 @@ fun main() {
         println("Xii, com essa quantidade você ficará em apuros ")
 
     }
+    when (codigo) {
 
+
+        "EEEE" -> print("código inválido")
+        "XXXX" -> print("código inválido")
+        "WHED" -> print(
+            "código inválido,última tentativa")
+            else-> {
+            print("não foi possível o acesso")
+        }
+    }
 
 }
 
