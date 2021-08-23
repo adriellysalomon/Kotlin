@@ -7,20 +7,15 @@ fun main() {
 
     if (resultado <= 18) {
         println("seu IMC está considerado - Magreza")
-    } else {
-        (resultado > 19 && <= 24)
+    } else if (resultado > 19 && resultado < 24) {
         println("seu IMC está considerado - Saudável")
-    } if else {
-        (resultado > 25 && <= 29)
+    } else if (resultado > 25 && resultado <= 29) {
         println("seu IMC está considerado - Sobrepeso")
-    } else {
-        (resultado > 30 && <= 34)
+    } else if (resultado > 30 && resultado <= 34){
         println("seu IMC está considerado - Obesidade Grau I")
-    } if else {
-        (resultado > 35 && <= 39)
+    } else  if (resultado > 35 && resultado <= 39) {
         println("seu IMC está considerado - Obesidade Grau II")
     } else {
-        (resultado > 40)
         println("seu IMC está considerado - Obeseidade Grau III")
     }
 }
