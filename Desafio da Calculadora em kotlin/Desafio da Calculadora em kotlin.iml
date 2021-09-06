@@ -1,0 +1,68 @@
+fun main() {
+    println("----- MENU CALCULADORA -----")
+    println("1 - realizar cálculo ")
+    println("2 - sair")
+    var resultado int = 0
+    if resultado = 1 {
+    var opcao = 0
+    if (opcao == 1) {
+        println("----- CALCULADORA -----")
+        println("Digite um valor: ")
+        println("Digite mais um valor: ")
+        println("Qual operação deseja realizar?(Ex:+,-,*,/): ")
+        var operacao = + ; -; *; /
+        var valorA Int= 0
+        var valorB Int= 0
+        var resultado Int= 0
+
+        if (operacao == +) {
+            operacao = valorA + valorB
+            println("$resultado")
+
+        } else (operacao == -)  {
+            operacao = valorA - valorB
+            println("$resultado")
+
+        } else if (operacao == *)  {
+            operacao = valorA * valorB
+            println("$resultado")
+
+        } else (operacao == /)  {
+            operacao = valorA / valorB
+
+            println("$resultado")
+            println("----------------")
+
+            if else resultado = 2 exitProcess
+        }
+        println("Deseja continuar? 1 para SIM e 2 para NÃO")
+
+        var opcao Int = 0
+        if (opcao == 1)
+            println("Digite um valor: ")
+        println("Digite mais um valor: ")
+        println("Qual operação deseja realizar?(Ex:+,-,*,/): ")
+        var operacao String = +;-;*;/
+        var valorA Int = 0
+        var valorB Int = 0
+        var resultado Int = 0
+        if (operacao == +) {
+            operacao = valorA + valorB
+            println("$resultado")
+
+        } else (operacao == -)  {
+            operacao = valorA - valorB
+            println("$resultado")
+
+        } else if (operacao == *)  {
+            operacao = valorA * valorB
+            println("$resultado")
+
+        } else (operacao == /)  {
+            operacao = valorA / valorB
+            println("$resultado")
+        }
+        }
+
+    }
+}
